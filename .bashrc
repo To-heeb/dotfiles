@@ -91,8 +91,16 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
 # alias to check battery status
 alias bat='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "state|to\ full|percentage"'
+
+# some aliases for openstack development
+alias fast8="tox -e fast8"
+alias pep8="tox -e pep8"
+alias all-api-samples="tox -e api-samples"
+alias api-sample="tox -e api-samples -- $1"
+alias source-py310="source .tox/py310/bin/activate"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
