@@ -8,7 +8,7 @@ My dotfiles in one place so I don't have run around all the time to setup my env
 git clone git@github.com:To-heeb/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/dotfiles.git ~/.dotfiles
+git clone https://github.com/To-heeb/dotfiles.git ~/.dotfiles
 ```
 
 3. Create symlinks in the Home directory to the real files in the repo.
