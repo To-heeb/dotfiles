@@ -18,6 +18,7 @@ git clone https://github.com/To-heeb/dotfiles.git ~/.dotfiles
 # investigate install scripts and bootstrapping tools.
 
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
+ln -s ~/.dofiles/init.vim ~/.config/nvim/
 ```
 
 ## TODO List
